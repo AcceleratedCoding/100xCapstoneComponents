@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-neutral-1000 m-10">
+
+    <div class="flex gap-5 mb-5">
+        <a href="./index.html" class="text-white">buttons</a>
+        <a href="./input.html" class="text-white">inputs</a>
+        <a href="./cards.html" class="text-white">cards</a>
+        <a href="./tweet.html" class="text-white">tweet</a>
+    </div>
+
+    <div class="flex gap-5">
+
+        <div class="flex flex-col gap-5">
+
+            <!-- create buttons -->
+            <!-- default -->
+            <button class="w-[20.875rem] py-2 px-5 bg-neutral-50 flex justify-center items-center shadow-button backdrop-blur-button rounded-create gap-2.5
+            hover:bg-neutral-200 disabled:bg-neutral-500">
+                <span class="font-inter text-base font-bold text-neutral-1000"> create account </span>
+            </button>
+
+            <!-- disabled -->
+            <button
+                class="w-[20.875rem] py-2 px-5 bg-neutral-500 flex justify-center items-center shadow-button backdrop-blur-button rounded-create gap-2.5">
+                <span class="font-inter text-base font-bold text-neutral-1000"> create account </span>
+            </button>
+
+            <!-- outline -->
+
+            <button
+                class="w-[20.875rem] py-2 px-5 flex justify-center items-center shadow-button backdrop-blur-button rounded-create gap-2.5 border border-stroke">
+                <span class="font-inter text-base font-bold text-twitter—blue"> Sign up </span>
+            </button>
+
+        </div>
+
+        <div class="flex flex-col gap-5">
+            <button class="py-2 px-5 bg-neutral-50 inline-flex justify-center items-center shadow-button backdrop-blur-button rounded-follow gap-2.5
+            hover:bg-neutral-200 disabled:bg-neutral-500">
+                <span class="font-inter text-base font-bold text-neutral-1000"> follow </span>
+            </button>
+
+            <button class="py-2 px-5 bg-neutral-500 inline-flex justify-center items-center shadow-button backdrop-blur-button rounded-follow gap-2.5
+            hover:bg-neutral-200 disabled:bg-neutral-500">
+                <span class="font-inter text-base font-bold text-neutral-1000"> follow </span>
+            </button>
+        </div>
+
+        <div class="flex flex-col gap-5">
+
+            <!-- create buttons -->
+            <!-- default -->
+            <button class="w-[27.625rem] py-3 px-5 bg-neutral-50 flex justify-center items-center shadow-button backdrop-blur-button rounded-create gap-2.5
+            hover:bg-neutral-200 disabled:bg-neutral-500">
+                <span class="font-inter text-base font-bold text-neutral-1000"> create account </span>
+            </button>
+
+            <!-- disabled -->
+            <button
+                class="w-[27.625rem] py-3 px-5 bg-neutral-500 flex justify-center items-center shadow-button backdrop-blur-button rounded-create gap-2.5">
+                <span class="font-inter text-base font-bold text-neutral-1000"> create account </span>
+            </button>
+
+            <div class="self-center">
+                <!-- outline -->
+
+                <button
+                    class="py-1.5 px-4 flex justify-center items-center shadow-button backdrop-blur-button rounded-create gap-2.5 border border-stroke">
+                    <span class="font-inter text-base font-bold text-twitter—blue"> following </span>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="flex items-center mt-40 mb-40 gap-16">
+        <!-- post buttons -->
+        <div class="flex flex-col gap-5">
+            <button class="w-[20.875rem] py-[0.9375rem] px-[5.8125rem] bg-twitter—blue flex justify-center items-center shadow-button backdrop-blur-button rounded-post gap-[0.625rem]
+            hover:bg-twitter—blue-hover disabled:bg-twitter—blue-disabled">
+                <span class="font-inter text-base font-bold text-neutral-50"> Post </span>
+            </button>
+
+            <button disabled class="w-[20.875rem] py-[0.9375rem] px-[5.8125rem] bg-twitter—blue flex justify-center items-center shadow-button backdrop-blur-button rounded-post gap-[0.625rem]
+           disabled:bg-twitter—blue-disabled">
+                <span class="font-inter text-base font-bold text-neutral-50"> Post </span>
+            </button>
+        </div>
+
+        <div class="flex flex-col gap-7">
+            <button class="py-3 px-5 bg-twitter—blue inline-flex justify-center items-center shadow-button backdrop-blur-button rounded-post gap-[0.625rem]
+            hover:bg-twitter—blue-hover disabled:bg-twitter—blue-disabled">
+                <span class="font-inter text-base font-bold text-neutral-50"> Post </span>
+            </button>
+
+            <button disabled class="py-3 px-5 bg-twitter—blue inline-flex justify-center items-center shadow-button backdrop-blur-button rounded-post gap-[0.625rem]
+            hover:bg-twitter—blue-hover disabled:bg-twitter—blue-disabled">
+                <span class="font-inter text-base font-bold text-neutral-50"> Post </span>
+            </button>
+        </div>
+
+        <div class="flex flex-col gap-5">
+            <button class="w-[27.625rem] p-5 bg-twitter—blue flex justify-center items-center shadow-button backdrop-blur-button rounded-post gap-[0.625rem]
+            hover:bg-twitter—blue-hover disabled:bg-twitter—blue-disabled">
+                <span class="font-inter text-base font-bold text-neutral-50"> Post </span>
+            </button>
+
+            <button disabled class="w-[27.625rem] p-5 bg-twitter—blue flex justify-center items-center shadow-button backdrop-blur-button rounded-post gap-[0.625rem]
+            hover:bg-twitter—blue-hover disabled:bg-twitter—blue-disabled">
+                <span class="font-inter text-base font-bold text-neutral-50"> Post </span>
+            </button>
+        </div>
+
+
+    </div>
+
+
+    <div
+        class="w-[37.375rem] h-[3.625rem] border-b border-neutral-700 px-20 pt-5 gap-40 flex justify-center items-center">
+        <div class="text-neutral-400 font-inter flex flex-col justify-between gap-4">
+            For you
+            <div class="h-[0.1875rem] bg-twitter—blue"></div>
+        </div>
+        <div class="text-neutral-400 font-inter flex flex-col justify-between gap-4">
+            Following
+            <div class="h-[0.1875rem]"></div>
+        </div>
+    </div>
+
+
+    <div class="flex gap-20 mt-10">
+        <!-- icons -->
+        <div class="flex flex-col gap-6">
+            <img src="../public/icons/home-inactive.svg" class="w-6 h-6">
+            <img src="../public/icons/home-active.svg" class="w-6 h-6">
+        </div>
+        <div class="flex flex-col gap-6">
+            <img src="../public/icons/profile-inactive.svg" class="w-6 h-6">
+            <img src="../public/icons/profile-active.svg" class="w-6 h-6">
+        </div>
+    </div>
+</body>
+
+</html>
